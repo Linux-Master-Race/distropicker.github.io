@@ -12,3 +12,8 @@ body {
   margin: 0;
 }
 
+#main {
+	margin-top: 2vh;
+	background-color: #34495e;
+	height: 85vh;
+}
