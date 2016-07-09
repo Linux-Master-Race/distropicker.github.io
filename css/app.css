@@ -37,6 +37,11 @@ h6 {
 	padding-top: 3vh;
 }
 
+#answers p {
+	font-size: 66%;
+	margin: 1vh;
+}
+
 #ans1, #ans2, #ans3 {
 	background-color: #2c3e50;
 	float: left;
@@ -44,7 +49,26 @@ h6 {
 	height: 55vh;
 	margin-left: 1%;
 	margin-right: 1%;
+	padding-top: 1%;
 }	
+
+#info {
+	background-color: #2c3e50;
+	width: 87.5%;
+	margin-left: 5.8%;
+	margin-top: 60vh;
+	height: 15%;
+}
+
+#info h6 {
+	padding-top: 2vh;
+	font-size: 62%;
+}
+
+#info p {
+	font-size: 56%;
+	margin-top: 1vh;
+}
 
 .shadowed {
 	box-shadow: 0 0 5px #1b2631
@@ -64,4 +88,12 @@ h6 {
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 	padding: 0;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 56.7%;
+	height: 50%;
+	background-color: #34495e;
+	margin: auto;
 }
