@@ -10,6 +10,7 @@ body {
   margin: 0;
   margin-top: 2vh;
   padding-top: 0.7vh;
+  font-size: 4.8vw;
 }
 #main {
 	margin-top: 2vh;
@@ -20,6 +21,7 @@ body {
 	margin: 0;
 	padding: 0;
 	padding-top: 1.5vh;
+	font-size: 4.6vw;
 }
 #answers {
 	width: 90%;
@@ -27,12 +29,12 @@ body {
 	padding-top: 2vh;
 }
 h6 {
-	font-size: 82%;
+	font-size: 80%;
 	margin: 0;
 	padding-top: 3vh;
 }
 #answers p {
-	font-size: 66%;
+	font-size: 56%;
 	margin: 1vh;
 }
 #ans1, #ans2, #ans3 {
