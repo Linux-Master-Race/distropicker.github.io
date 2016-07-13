@@ -1,3 +1,5 @@
+var q1_ans;
+
 function setQuestion(newText) {
 	document.getElementById("question").innerHTML=newText;
 }
@@ -11,7 +13,26 @@ function setInfo(newText) {
 	document.getElementById("info_text").innerHTML=newText;
 }
 
-function q1() {
+function saveAnswer(elementId) {
+	q1_ans = document.getElementById(elementId).textContent.toLowerCase();
+	console.log(q1_ans);
+}
+
+function setupHandlers() {
+	document.getElementById("ans1").addEventListener("click", function() {
+		saveAnswer("ans1_title");
+	}, false);
+
+	document.getElementById("ans2").addEventListener("click", function() {
+		saveAnswer("ans2_title");
+	}, false);
+
+	document.getElementById("ans3").addEventListener("click", function() {
+		saveAnswer("ans3_title");
+	}, false);
+}
+
+function setq1() {
 	setQuestion("What is your *NIX operating system skill level?");
 	setAns(1, "Beginner", "You have never used a BSD or GNU/Linux operating system before, or used one very little.");
 	setAns(2, "Intermediate", "You have used a BSD or GNU/Linux operating system before, and have a fair amount of relevant technical knowledge.");
@@ -19,4 +40,5 @@ function q1() {
 	setInfo("N/A");
 }
 
-q1();
+setupHandlers();
+setq1();
