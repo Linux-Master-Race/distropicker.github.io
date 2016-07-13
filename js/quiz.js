@@ -1,11 +1,3 @@
-function click() {
-	console.log("test");
-}
-var btn1 = document.getElementById("ans1");
-var btn2 = document.getElementById("ans2");
-var btn3 = document.getElementById("ans3");
-btn1.addEventListener("click", click, false);
-
 function setQuestion(newText) {
 	document.getElementById("question").innerHTML=newText;
 }
