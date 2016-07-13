@@ -25,7 +25,7 @@ body {
 	margin: 0;
 	padding: 0;
 	padding-top: 1.5vh;
-	font-size: 90%;
+	font-size: 80%;
 }
 #answers {
 	width: 90%;
@@ -33,12 +33,13 @@ body {
 	padding-top: 2vh;
 }
 h6 {
-	font-size: 80%;
+	font-size: 56%;
 	margin: 0;
 	padding-top: 3vh;
+	text-decoration: underline;
 }
 #answers p {
-	font-size: 56%;
+	font-size: 48%;
 	margin: 1vh;
 }
 #ans1, #ans2, #ans3 {
@@ -64,10 +65,10 @@ h6 {
 }
 #info h6 {
 	padding-top: 2vh;
-	font-size: 62%;
+	font-size: 58%;
 }
 #info p {
-	font-size: 56%;
+	font-size: 50%;
 	margin-top: 1vh;
 }
 .shadowed {
