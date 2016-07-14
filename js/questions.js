@@ -29,3 +29,11 @@ function setq4() {
 	setAns(3, "BSD", "BSD is a better choice if your concern is security or running on old or exotic hardware.");
 	setInfo("You may want to research the differences, or just choose \"either\"");
 }
+
+function setq5() {
+	setQuestion("5. Do you want SystemD in your distro?");
+	setAns(1, "Yes", "You want SystemD to be installed. SystemD generally has better support than its alternatives.");
+	setAns(2, "Undecided", "You are fine either way, with SystemD or without SystemD, or just undecided.");
+	setAns(3, "No", "You want to avoid SystemD in favor of an alternative such as runit or openrc. Choose this if you previously answered \"BSD\".");
+	setInfo("To learn about why some want to avoid SystemD; visit without-systemd.org");
+}
