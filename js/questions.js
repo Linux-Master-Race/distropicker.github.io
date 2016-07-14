@@ -41,7 +41,31 @@ function setq5() {
 function setq6() {
 	setQuestion("6. Do you want an operating system that is light on resources?");
 	setAns(1, "No", "You don't need to focus on finding a lightweight operating system.");
-	setAns(2, "Maybe", "Your pc is not that fast or a little old, you want something lightweight but not to make sacrifices for it.");
+	setAns(2, "Maybe", "Your PC is not that fast or a little old, you want something lightweight but not to make sacrifices for it.");
 	setAns(3, "Yes", "You have an old or slow computer, or just want something as light and fast as possible.");
 	setInfo("This question mainly determines what desktop environment will be best.");
+}
+
+function setq7() {
+	setQuestion("7. Do you want your distro to come with a graphical user interface installed?");
+	setAns(1, "Yes", "I want a GUI installed by default. Beginners should choose this.");
+	setAns(2, "Maybe", "I have no preference, either way works for me.");
+	setAns(3, "No", "I want to install and configure my own.");
+	setInfo("N/A");
+}	
+
+function setq8() {
+	setQuestion("8. Do you want all of your software to be free?");
+	setAns(1, "Yes", "I want to avoid every bit of proprietary software");
+	SetAns(2, "Maybe", "I prefer to stick to free software, but some proprietary software is alright with me.");
+	SetAns(3, "No", "I hate freedom, let all the corporations steal my privacy and strip away my rights.");
+	setInfo("By \"free\" we mean as in freedom, not as in price; learn more at fsf.org");
+}
+
+function setq9() {
+	setQuestion("9. Do you mind compiling software from source code?");
+	setAns(1, "Yes", "I don't want to have to compile anything, binaries only please. Beginners should choose this.");
+	setAns(2, "Maybe", "Compiling is alright with me, but I don't want to have to compile everything.");
+	setAns(3, "No", "I prefer to compile things, I'd prefer to compile most software on my computer.");
+	setInfo("Compiling is the process of turning source code into \"binaries\" your computer can run.");
 }
