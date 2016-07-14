@@ -57,8 +57,8 @@ function setq7() {
 function setq8() {
 	setQuestion("8. Do you want all of your software to be free?");
 	setAns(1, "Yes", "I want to avoid every bit of proprietary software");
-	SetAns(2, "Maybe", "I prefer to stick to free software, but some proprietary software is alright with me.");
-	SetAns(3, "No", "I hate freedom, let all the corporations steal my privacy and strip away my rights.");
+	setAns(2, "Maybe", "I prefer to stick to free software, but some proprietary software is alright with me.");
+	setAns(3, "No", "I hate freedom, let all the corporations steal my privacy and strip away my rights.");
 	setInfo("By \"free\" we mean as in freedom, not as in price; learn more at fsf.org");
 }
 
