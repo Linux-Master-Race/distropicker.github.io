@@ -33,7 +33,7 @@ function setq4() {
 function setq5() {
 	setQuestion("5. Do you want systemd in your distro?");
 	setAns(1, "Yes", "You want systemd to be installed. Systemd generally has better support than its alternatives.");
-	setAns(2, "Either", "You are undecided, don't care, or don't know what SystemD is.");
+	setAns(2, "Either", "You are undecided, don't care, or don't know what systemd is.");
 	setAns(3, "No", "You want to avoid systemd in favor of an alternative such as runit or openrc. Choose this if you previously answered \"BSD\".");
 	setInfo("To learn about why some want to avoid systemd; visit without-systemd.org");
 }
