@@ -37,3 +37,11 @@ function setq5() {
 	setAns(3, "No", "You want to avoid SystemD in favor of an alternative such as runit or openrc. Choose this if you previously answered \"BSD\".");
 	setInfo("To learn about why some want to avoid SystemD; visit without-systemd.org");
 }
+
+function setq6() {
+	setQuestion("6. Do you want an operating system that is light on resources?");
+	setAns(1, "No", "You don't need to focus on finding a lightweight operating system.");
+	setAns(2, "Maybe", "Your pc is not that fast or a little old, you want something lightweight but not to make sacrifices for it.");
+	setAns(3, "Yes", "You have an old or slow computer, or just want something as light and fast as possible.");
+	setInfo("This question mainly determines what desktop environment will be best.");
+}

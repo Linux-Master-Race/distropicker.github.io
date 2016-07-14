@@ -29,6 +29,8 @@ function nextQuestion() {
 		setq4();
 	else if (currentNumber == 4)
 		setq5();
+	else if (currentNumber == 5)
+		setq6();
 }
 
 function setupHandlers() {
