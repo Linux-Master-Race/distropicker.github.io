@@ -19,4 +19,5 @@ function setq3() {
 	setAns(1, "Minimal", "Included just the bare essentials, I will install my own software.");
 	setAns(2, "Average", "Includes software to enable common computing tasks such as web browsing, document editing, and music/video playback.");
 	setAns(3, "Specialized", "Includes software to do most computing tasks, may include specialized software for creating virtual machines, programming, video editing, 3d modeling, etc.");
+	setInfo("N/A");
 }

@@ -19,9 +19,14 @@ function saveAnswer(elementId) {
 
 function nextQuestion() {
 	currentNumber = Number(document.getElementById("question").textContent[0]);
+	console.log(currentNumber);	
 	
-	if (currentNumber = 1)
+	if (currentNumber == 1) { 
 		setq2();
+	}
+	else if (currentNumber == 2) {
+		setq3();
+	}
 }
 
 function setupHandlers() {
