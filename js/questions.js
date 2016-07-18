@@ -1,3 +1,4 @@
+// This file lays out each question by adding each question element to an array
 qtitle.push("1. What is your *NIX operating system skill level?");
 qtitle1.push("Beginner");
 qans1.push("You have never used a BSD or GNU/Linux operating system before, or have used one very little.");
@@ -43,43 +44,34 @@ qtitle3.push("No");
 qans3.push("You want to avoid systemd in favor of an alternative such as runit or openrc. Choose this if you previously answered \"BSD\".");
 qinfo.push("To learn about why some want to avoid systemd; visit without-systemd.org");
 
-qtitle.push("6. Do you want an operating system that is light on resources?");
-qtitle1.push("Yes");
-qans1.push("You have an old or slow computer, or just want something as light and fast as possible.");
-qtitle2.push("Maybe");
-qans2.push("Your PC is not that fast or a little old, you want something lightweight but not to make sacrifices for it.");
-qtitle3.push("No");
-qans3.push("You don't need to focus on finding a lightweight operating system.");
-qinfo.push("This question mainly determines what desktop environment will be best.");
-
-qtitle.push("7. Do you want your distro to come with a graphical user interface installed?");
+qtitle.push("6. Do you want your distro to come with a graphical user interface installed?");
 qtitle1.push("Yes");
 qans1.push("I want a GUI installed by default. Beginners should choose this.");
-qtitle2.push("Maybe");
+qtitle2.push("Either");
 qans2.push("I have no preference, either way works for me.");
 qtitle3.push("No");
 qans3.push("I want to install and configure my own.");
 qinfo.push("N/A");
 
-qtitle.push("8. Do you want all of your software to be free?");
+qtitle.push("7. Do you want all of your software to be free?");
 qtitle1.push("Yes");
 qans1.push("I want to avoid every bit of proprietary software");
-qtitle2.push("Maybe");
+qtitle2.push("Mostly");
 qans2.push("I prefer to stick to free software, but some proprietary software is alright with me.");
 qtitle3.push("No");
 qans3.push("I hate freedom, let all the corporations steal my privacy and strip away my rights.");
 qinfo.push("By \"free\" we mean as in freedom, not as in price; learn more at fsf.org");
 
-qtitle.push("9. Do you mind compiling software from source code?");
-qtitle1.push("Yes");
-qans1.push("I don't want to have to compile anything, binaries only please. Beginners should choose this.");
-qtitle2.push("Maybe");
+qtitle.push("8. What software do you want to from source code?");
+qtitle1.push("All");
+qans1.push("I prefer to compile almost everything myself.");
+qtitle2.push("Some");
 qans2.push("Compiling is alright with me, but I don't want to have to compile everything.");
-qtitle3.push("No");
-qans3.push("I prefer to compile things, I'd prefer to compile most software on my computer.");
+qtitle3.push("None");
+qans3.push("I don't want to have to compile anything, binaries only please. Beginners should choose this.");
 qinfo.push("Compiling is the process of turning source code into \"binaries\" your computer can run.");
 
-qtitle.push("10. Do you prefer command line or graphical user interfaces?");
+qtitle.push("9. Do you prefer command line or graphical user interfaces?");
 qtitle1.push("Command-Line");
 qans1.push("You prefer programs to be command line based, accessed from the terminal.");
 qtitle2.push("Either");
@@ -88,7 +80,7 @@ qtitle3.push("Graphical");
 qans3.push("You prefer programs to have graphical user interfaces (GUIs). Recommended for beginners.");
 qinfo.push("For more info on CLI vs GUI: computerhope.com/issues/ch000619.htm");
 
-qtitle.push("11. Do you want your distro to have an installer or do you want to install it manually?");
+qtitle.push("10. Do you want your distro to have an installer or do you want to install it manually?");
 qtitle1.push("Installer");
 qans1.push("You want an installer to walk you through installation and configuration. Recommended for beginners.");
 qtitle2.push("Either");

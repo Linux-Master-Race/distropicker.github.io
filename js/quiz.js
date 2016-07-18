@@ -30,7 +30,7 @@ function saveAnswer(elementId) {
 }
 
 function nextQuestion() {
-    if (currentNumber < 11) {
+    if (currentNumber < 10) {
         setQuizQuestion(currentNumber);
         currentNumber = currentNumber + 1;
         console.log(answers);

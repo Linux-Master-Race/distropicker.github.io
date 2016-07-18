@@ -1,0 +1,28 @@
+"distros": [{
+        "name": "debian",
+        "skill_level": "intermediate",
+        "software": "stable",
+        "preinstalled": "average",
+        "os_family": "gnu/linux",
+        "systemd": "yes",
+        "default_gui": "yes",
+        "free": "yes",
+        "compiling": "none",
+        "ui": "graphical",
+        "install_type": "installer"
+    },
+
+    {
+        "name": "arch",
+        "skill_level": "expert",
+        "software": "up-to-date",
+        "preinstalled": "minimal",
+        "os_family": "gnu/linux",
+        "systemd": "yes",
+        "default_gui": "no",
+        "free": "mostly",
+        "compiling": "maybe",
+        "ui": "either",
+        "install_type": "manual"
+    }
+]

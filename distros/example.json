@@ -1,0 +1,62 @@
+THIS JSON FILE IS FOR EXAMPLES ONLY!
+To add your own distro to distropicker, you must edit distro.json as this is where
+all distros are stored. You will copy and paste a distro then edit it to have the
+correct properties. You should have copy and pasted something that looks like this:
+
+  {"name":"debian",
+    "skill_level":"intermediate",
+    "software":"stable",
+    "preinstalled":"average",
+    "os_family":"gnu/linux",
+    "systemd":"yes",
+    "light":"maybe",
+    "default_gui":"yes",
+    "free":"yes",
+    "compiling":"no",
+    "ui":"graphical",
+    "install_type":"installer"
+    }
+
+And will be editing it to fit your distro.
+Please note that everything is lowercase and does not contain spaces.
+
+First, edit the name to match your distro, then read through the following reference
+on what the user can answer, and enter the correct properties into your distro.
+
+skill_level = beginner, intermediate, expert
+Beginner is for things like ubuntu and mint.
+Intermediate is for distros such as manjaro, debian, fedora, opensuse, etc.
+Expert is for things like LFS, arch, void, gentoo, funtoo, crux, etc.
+
+software = stable, inbetween, up-to-date
+Stable is for distros that extensively test software, such as debian or centos.
+Inbetween will include most distros such as ubuntu, mint, fedora, opensuse, etc.
+Up-to-date is mostly for rolling release distros like void, arch, gentoo, debian testing, etc.
+
+preinstalled = minimal, average, Specialized
+Minimal is for things like arch, void, and gentoo where very little software is included by default.
+Average is for things like ubuntu, mint, and fedora, which contain software for common tasks.
+Specialized is for things like ubuntu studio, opensuse, kali, etc. Anything which contains specialized software by default.
+
+os_family = gnu/linux, BSD
+Fairly self explanatory, if it has the linux kernel its gnu/linux, if it has BSD in the name, it's a BSD.
+
+systemd = yes, no
+Does the distro include systemd?
+
+default_gui = yes, no
+Does the distro have a graphical user interface by default?
+
+free = yes, mostly, no
+Does the distro contain completely free software?
+
+compiling = none, some, all
+None is for distros that do not require compiling and are binary based, ubuntu, debian, mint.
+Some is for distros that require some compiling such as void and arch (because of xbps-src and aur).
+All is for distros that have you compile almost everything, sabayon, gentoo, funtoo.
+
+ui = command-line, graphical
+Are most programs CLI based or do they have GUIs?
+
+install_type = installer, manual
+Does the distro have an installer?
