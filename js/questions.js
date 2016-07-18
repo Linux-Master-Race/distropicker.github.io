@@ -2,7 +2,7 @@ qtitle.push("1. What is your *NIX operating system skill level?");
 qtitle1.push("Beginner");
 qans1.push("You have never used a BSD or GNU/Linux operating system before, or have used one very little.");
 qtitle2.push("Intermediate");
-qans2.push("Intermediate", "You have used a BSD or GNU/Linux operating system before, and have a fair amount of relevant technical knowledge.");
+qans2.push("You have used a BSD or GNU/Linux operating system before, and have a fair amount of relevant technical knowledge.");
 qtitle3.push("Expert");
 qans3.push("You are quite knowledable about the inner workings of a BSD or GNU/Linux system.");
 qinfo.push("N/A");
@@ -36,7 +36,7 @@ qinfo.push("You may want to research the differences, or just choose \"either\""
 
 qtitle.push("5. Do you want systemd in your distro?");
 qtitle1.push("Yes");
-qans1.push("Yes", "You want systemd to be installed. Systemd generally has better support than its alternatives.");
+qans1.push("You want systemd to be installed. Systemd generally has better support than its alternatives.");
 qtitle2.push("Either");
 qans2.push("You are undecided, don't care, or don't know what systemd is.");
 qtitle3.push("No");
@@ -56,7 +56,7 @@ qtitle.push("7. Do you want your distro to come with a graphical user interface 
 qtitle1.push("Yes");
 qans1.push("I want a GUI installed by default. Beginners should choose this.");
 qtitle2.push("Maybe");
-qans2.push("Maybe", "I have no preference, either way works for me.");
+qans2.push("I have no preference, either way works for me.");
 qtitle3.push("No");
 qans3.push("I want to install and configure my own.");
 qinfo.push("N/A");
